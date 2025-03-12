@@ -1,17 +1,37 @@
-*{ /* Глобальное обращение ко всем тегам*/
-     color: black;
-     font-size: 14px;
-}
+
 /*ОФОРМЛЕНИЕ МЕНЮ */
 #menu1{
-	
+	width: auto;
+	display: block;
+	margin: 0 auto 30px;
 }
+header{
+	background:#DCDCDC;
+}	
 #menu1 ul{
 	list-style:none;
 	display: flex;
+	margin: 5px;
+	padding: 5px;
+	padding-left: 0;
 }
-#menu ul li {}
-#menu ul li a{}	
+#menu1 ul li{
+	width: 75px;
+	height: 30px;
+	font-size: 18px;
+	border-right: 1px solid #FFAB51;
+	background: #DCDCDC;
+	text-align: center; /*Горизонтальное положение */
+	/*vertical-align: text-top; /*вертикальное положение */
+	transition: 0.5s;
+	margin: 0;
+}
+#menu1 ul li:hover{
+	background:#A9A9A9;
+}	
+#menu1 ul li a{
+	text-decoration: none;
+}	
 
 
 
