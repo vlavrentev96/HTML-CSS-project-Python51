@@ -9,40 +9,39 @@
 	 </style>	  
 </head>
 <header> <!--Шапка сайта. нужна для навигации-->
-    <div style='border: 2px solid black; border-radius: 30px;'> <!-- контейнер для тегов и контента -->
+   <nav id='menu1'>
 	     <ul> <!--Список элементов -->
-		      <h3>ТОП ЯЗЫКОВ ПРОГРАММИРОВАНИЯ</h3>
-		      <li>Python </li> <!--Перечень списка строка -->
-			  <li>C++ </li> <!--Перечень списка строка -->
-			  <li>SQL </li> <!--Перечень списка строка -->
-			  <li>C# </li> <!--Перечень списка строка -->
-		      <li>Rubi </li> <!--Перечень списка строка -->
+		      <li><a href='index.html'> Главная </li> <!--Перечень списка строка -->
+			  <li><a href='#'>Проекты </li> <!--Перечень списка строка -->
+			  <li><a href='#'>Блог </li> <!--Перечень списка строка -->
+			  <li><a href='#'>О нас </li> <!--Перечень списка строка -->
+		      <li><a href='#'>Контакты </li> <!--Перечень списка строка -->
 	     </ul>
-	</div>
+	</nav>
+</header>	
+<body>
+<div style='border: 2px solid black; border-radius: 30px;'>
 	<div> <!-- контейнер для тегов и контента -->
-	     <ol> <!--Список элементов -->
+	     <ul> <!--Список элементов -->
 		     <h3>Топ фильмов на вечер</h3>
 			 <li>Зеленая книга </li> <!--Перечень списка строка -->
 			 <li>Переводчик </li> <!--Перечень списка строка -->
 			 <li>Малена </li> <!--Перечень списка строка -->
 		     <li>Неоспоримый 3 </li> <!--Перечень списка строка -->
 			 <li>Предложение </li> <!--Перечень списка строка -->
-		 </ol>	 
+		 </ul>	 
 	</div>	 
-<div style='border: 2px solid black; border-radius: 30px;'> <!-- контейнер для тегов и контента -->
-         <ol> <!--Список элементов -->
-		      <h3>Правила работы с HTML</h3>
-		      <li>Все пробелы, табуляция и начало новых строк преобразуется в обычный пробел </li> <!--Перечень списка строка -->
-			  <li>Весь код должен быть отформирован в виде тегов разметки </li> <!--Перечень списка строка -->
-			  <li>Если у элементов нет содержимого, то закрывающий тег ему НЕ НУЖЕН.</li> <!--Перечень списка строка -->
-			  <li>Всегда должны быть теги: html, head, title, body.
-                  Остальные теги добавляются по наполнению сайта</li> <!--Перечень списка строка -->
-			  <li>Всегда выполнять правило матрешки </li> <!--Перечень списка строка -->	  
-		      <li>Текстовые блоки и значения атрибутов всегда берутся в кавычки. </li> <!--Перечень списка строка -->
-			  <li>Всегда комментируем,сохраняем процесс, проверяем </li> <!--Перечень списка строка -->
-			  <li>Атрибуты (свойства) тега - является уникальными, 
-			      называть как тег, давать имя, обращаться к нему</li> <!--Перечень списка строка -->
-	     </ul>
+<div style='border: 2px solid black; border-radius: 30px;'>
+	 <ol> <!--Список элементов -->
+		      <h3>ТОП ЯЗЫКОВ ПРОГРАММИРОВАНИЯ</h3>
+		      <li>Python </li> <!--Перечень списка строка -->
+			  <li>C++ </li> <!--Перечень списка строка -->
+			  <li>SQL </li> <!--Перечень списка строка -->
+			  <li>C# </li> <!--Перечень списка строка -->
+		      <li>Rubi </li> <!--Перечень списка строка -->
+	     </ol>
+	</div>
+<div style='border: 2px solid black; border-radius: 30px;'>
 	</div>
 </header>
 <body> <!-- тело сайта. нужно для контента-->
@@ -53,7 +52,7 @@
 	<h5> Hello World!!!</h5>
 	<h6> Hello World!!!</h6>
     <hr>
-    <p> <!--Параграфффф -->
+    <p id ='p1'><!--Параграфффф -->
 	<!-- b - это болт полужирный шрифт
 	     i - italic, курсив
 		 br - break, перенос на новую строку
@@ -65,20 +64,22 @@
 	    <i>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </i>
 	</p>
 	<hr>
-    <p>
+    <p id ='p2'>
 	    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
 	    The point of using Lorem Ipsum is that it <br> has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
 	    Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, <br> and a search for 'lorem ipsum' will uncover many web sites still in their infancy. 
 	    Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
 	</p>
 	<hr>
-	<p>
+	<p class="p3">
 	    Contrary to popular belief, Lorem Ipsum is not simply random text. 
 	    It has roots in a piece of classical Latin literature from 45 BC, <br> making it over 2000 years old. 
 	    Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. 
-	    Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. 
-	    The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-    <hr>
+	    Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+	    The first line of Lore
+	</p>>
+    </hr>
+
  
 </body>
 <footer> <!-- подвал сайта. доп информация + контакт-->

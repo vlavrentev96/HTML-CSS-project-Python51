@@ -2,11 +2,57 @@
      color: black;
      font-size: 14px;
 }
+/*ОФОРМЛЕНИЕ МЕНЮ */
+#menu1{
+	
+}
+#menu1 ul{
+	list-style:none;
+	display: flex;
+}
+#menu ul li {}
+#menu ul li a{}	
+
+
+
+
+
+
+
+
 
 
 body{
      background:red;
      color:white;
 }
-p{font-size: 25px;}
-h1,h2,h3,h4,h5,h6
+p{ font-size: 25px;}
+h1,h2,h3,h4,h5,h6 { color: white;}
+
+/*Свойства для абзацев */
+/*Обращение к id */
+#p1{
+    /*Нужен для отображения пробелов между словами */
+    /* normal | nowrap не учитывать пробелы и переносы!
+    pre отображение с учетов всех переносов и пробелов|
+    pre-line не учитывать пробелы, перенести текст на след. строку
+    | pre-wrap сохраняет все пробелы и переносы, но если строка не помещается то текст автоматически будет перенесен*/
+
+    white-space: normal;
+    /*Перенос строк внутри слов |normal| break-all добавляет перенос строк так, чтобы поместилось в заданную ширину|
+    keep-all запрещает перенос слов*/
+    word-break: break-all;
+	width:200px;
+	height: 200px;
+}
+#p2{
+    white-space: pre;
+    writing-mode:horizontal-tb; /*Горизонтальное сверху вниз|
+    vertical-rl вертикальное сверху вниз справа налево|
+    vertical-lr вертикальное сверху вниз слево направо*/
+}
+/*Обращение к классу */
+.p3{
+    white-space: pre-line;
+    writing-mode:vertical-lr;
+}
