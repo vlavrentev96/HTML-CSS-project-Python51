@@ -8,7 +8,7 @@
 
 	}
 	#zadanie1 ul li{
-		color:white;
+		color:black;
 		background:#ff207b;
 		border: 1px solid #fff;
 		font-size: 14px;
@@ -16,7 +16,7 @@
 
 	}
 	#zadanie1 ul li:marker{
-		background-color:red;
+		background-color:white;
 		left:-20px;
 	}
 	#zadanie1 ul li span{

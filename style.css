@@ -43,14 +43,14 @@ header{
 
 
 body{
-     background:red;
-     color:white;
+     background:white;
+     color:black;
 	 margin:0px;
 	 padding:0px;
 	 
 }
 p{ font-size: 25px;}
-h1,h2,h3,h4,h5,h6 { color: white;}
+h1,h2,h3,h4,h5,h6 { color: black;}
 
 /*Свойства для абзацев */
 /*Обращение к id */
