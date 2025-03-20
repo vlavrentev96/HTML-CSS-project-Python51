@@ -1,0 +1,137 @@
+
+/*ОФОРМЛЕНИЕ МЕНЮ */
+.menu1, .menuFooter{
+	width: auto;
+	display: block;
+	margin: 0 auto 0px;
+}
+header{
+	background:#DCDCDC;
+	border-bottom: 4px solid #FFAB51;
+	margin: 0px;
+	padding: 0px;
+}	
+.menuFooter ul{
+	list-style:none;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	padding-left: 0;
+	text-align: center; /*Горизонтальное положение */
+	vertical-align: middle; /*вертикальное положение */
+}
+}
+.menu1 ul li{
+	width: 75px;
+	height: 30px;
+	font-size: 18px;
+	border-right: 4px solid #FFAB51;
+	background: #DCDCDC;
+	transition: 0.5s;
+	margin: 0;
+	display: block;
+}
+.menu1 ul li:hover, .menuFooter ul li:hover{
+	background:#A9A9A9;
+}	
+.menu1 ul li a, .menuFooter ul li a{
+	text-decoration: none;
+	height:30px;
+}	
+
+.menuFooter ul li{
+	font-size: 46px;
+	border: 4px solid #FFAB51;
+	background: #DCDCDC;
+	transition: 0.5s;
+	margin: 0;
+	display: block;
+	width: auto;
+	height:auto;
+}
+
+body{
+     background:none;
+     color:black;
+	 margin:0px;
+	 padding:0px;
+}
+p{ font-size: 25px;}
+h1,h2,h3,h4,h5,h6 { color: black;}
+.post{
+	background:#FDD9B5;
+	border: 1px solid black;
+	border-radius: 30px;
+}
+.post div{
+	padding: 30px;
+}
+.post-info{
+	color: grey:
+}
+.alignleft{
+	float: left;
+	margin-right: 15px:
+}
+.alignright{
+	float: right;
+	margin-left: 15px;
+}
+.post img{
+	border: 3px double #cecece;
+	border-radius: 30px;
+	
+	/*
+		width -
+		height - 
+		sizes - размеры страницы для разных макетов изображения,
+		при разных разрешениях экрана
+		srcset - указывает набор возможных изображений
+		для отображения в браузере (адрес, ширина, плотность пикселей)
+		imap - указатель серверной карты-изображения, к которой можно привязать ссылки
+		usemap - связывает картинку с картой изображения при помощи тега <map>
+		Применяются изображения формата JPEG, GIF, PNG, PNG-8,24,32, 
+		APNG, SVG, WEB BMP, ICO, fav */
+		
+}
+
+/*Свойства для абзацев */
+/*Обращение к id */
+#p1{
+    /*Нужен для отображения пробелов между словами */
+    /* normal | nowrap не учитывать пробелы и переносы!
+    pre отображение с учетов всех переносов и пробелов|
+    pre-line не учитывать пробелы, перенести текст на след. строку
+    | pre-wrap сохраняет все пробелы и переносы, но если строка не помещается то текст автоматически будет перенесен*/
+
+    white-space: normal;
+    /*Перенос строк внутри слов |normal| break-all добавляет перенос строк так, чтобы поместилось в заданную ширину|
+    keep-all запрещает перенос слов*/
+    word-break: break-all;
+	width:200px;
+	height: 200px;
+}
+#p2{
+    white-space: pre;
+    writing-mode:horizontal-tb; /*Горизонтальное сверху вниз|
+    vertical-rl вертикальное сверху вниз справа налево|
+    vertical-lr вертикальное сверху вниз слево направо*/
+}
+/*Обращение к классу */
+.p3{
+    white-space: pre-line;
+    writing-mode:vertical-lr;
+}
+
+/*НАСТРОЙКА СТИЛЯ ДЛЯ ФУТЕРА*/
+.footer-columns{
+	display:flex;
+}
+.footer-column{
+		flex:33%;
+		margin:20px;
+}
+footer{
+	background:#CD9575;
+	padding: 10px;
+}
