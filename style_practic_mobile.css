@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 .phone{
 	width: 300px;
 	height: 600px;
@@ -50,3 +53,74 @@
 	border: 4px outset #505050;
 	margin: 25px auto 0;
 }
+.cardprod{
+	display: flex;
+	padding: 8px;
+	width: auto;
+	margin: auto;
+
+}
+.card{
+	width: 300px;
+	height: 600px;
+	margin: 10px;
+	text-align:center;
+	border: 4px solid black;
+	border-radius: 8px;
+	box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+	transition: 0.5s;
+	background: grey;
+}
+.card h1{
+	color: red;
+	border-color: red;
+	border-bottom: 4px solid;
+	font-family: "Roboto", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 26px;
+}
+.card h2{font-size: 35px;}
+.card h3{color: grey;}
+.card p{
+	color: black:
+	font-size: 20px;
+}
+.button-card{
+	background-color: red;
+	border: 4px solid red;
+	border-radius: 8px;
+	width: 100px;
+	height: 50px;
+	color: white;
+	margin: auto;
+	text-align: center;
+	vertical-align: center;
+	transition: 0.5s;
+	font-family: "Roboto", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 28px;
+}
+.card:hover{
+	transform: scale(1.3);
+}
+.button-card:hover{
+	color: black;
+}
+.orange h1{
+	border-color: orange;
+}
+.pink h1{
+	border-color: pink;
+}
+.green h1{
+	border-color: green;
+}
+.yellow h1{
+	border-color: yellow;
+}
+.blue h1{
+	border-color: blue;
