@@ -1,0 +1,34 @@
+.phone{
+	width: 30px;
+	height: 600 px;
+	background-color:#fff;
+	border: 5px solid;
+	border-color: #aaa #676767;
+	border-radius: 60px;
+	padding: 10px 20 px;
+	margin: 20 px auto;
+}
+.camera{
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	border: 4px solid #666;
+	background-color: #4fa3eb;
+	margin: auto;
+	margin-bottom: 15px;
+}
+.circle{
+	width: 13px;
+	height: 13px;
+	background-color: #333;
+	border-radius: 50%;
+}
+.dinamic{
+	
+}
+.inner-block{
+	
+}
+.control{
+	
+}
