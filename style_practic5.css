@@ -18,7 +18,6 @@
     margin-left: 2px; 
     line-height: 70px; 
     padding: 10px; 
-/*    display:inline-block;*/ 
 } 
 .card_red{  
     width: 70px; 
@@ -30,5 +29,4 @@
     line-height: 70px; 
     color: red; 
     padding: 10px; 
-/*    display:inline-block;*/ 
 }
