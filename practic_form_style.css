@@ -1,10 +1,16 @@
-body{
-     background:none;
-     color:black;
-	 margin:0px;
-	 padding:0px;
-}
 form{
-	text-align: center;
-	align-items: center;
+     background:#c2bfb6;
+     color:white;
+	 margin:auto;
+	 padding:0px;
+	 border: 3x solid black;
+	 background: url('images/credit_card.jpg');
+}
+.h2absolut{
+	width: 350px;
+	height: 60px;
+	margin-left:-50px;
+	text-align: right;
+	vertical-align: middle;
+	background: orange;
 }
